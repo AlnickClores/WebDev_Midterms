@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgb(253, 253, 253);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #272b33;
+}
+li, a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 12%; 
+    background: -webkit-linear-gradient(170deg,rgb(0, 118, 165), rgb(11, 9, 102));
+    list-style: none;
+    text-decoration: none;
+}
+.logo a{
+    background: linear-gradient(to right, #fbff00,rgb(0, 118, 165), #8b4513);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    transition: color .2s ease-in-out;
+}
+.logo a:hover{
+    /*background-xo: -webkit-linear-gradient(170deg, #EBF4BF, #0EB8F5);
+    transition: background-color 0s ease-in-out 300ms;
+    display: inline-block;
+    color: black;*/
+    color:rgba(255, 255, 255, 0);
+}
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+
+section{
+    padding: 25px 12%;
+}
+
+.welcome{
+    font-size: 1.5rem;
+    margin: 20px 50px;
+}
+
+.welcome h1{
+    font-size: 4rem;
+}
+
+span .welc{
+    background: -webkit-linear-gradient(170deg, #EBF4BF, #0EB8F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.php{
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 75px;
+    padding: 50px;
+}
+span{
+    background: -webkit-linear-gradient(170deg, #EBF4BF, #0EB8F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+
+footer{
+    padding: 25px 12%;
+    background-color: rgb(0, 118, 165);
+    text-align: center;
+    line-height: 3rem;
+}
+footer a:hover{
+    padding: 1px 15px;
+    background: -webkit-linear-gradient(170deg, #EBF4BF, #0EB8F5);
+    transition: background-color 0s ease-in-out 300ms;
+    display: inline-block;
+    color: black;
+}

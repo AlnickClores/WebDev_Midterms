@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgb(253, 253, 253);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #272b33;
+    height: 100vh;
+}
+.reg{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.5rem;
+}
+.container{
+    background: -webkit-linear-gradient(170deg,rgb(0, 118, 165), rgb(11, 9, 102));
+    width: 50%;
+    padding: 25px 30px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+.container h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.container form .innerContainer{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .innerContainer .info{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.innerContainer .info .details{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.innerContainer input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: black;
+}
+.innerContainer2 span{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.innerContainer2 .info2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.innerContainer2 input{
+    color: black;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    padding: 10px 0;
+    margin-top: 20px;
+    width: 50%;
+    background: -webkit-linear-gradient(170deg,rgb(11, 9, 102), rgb(0, 118, 165));
+    font-weight: 500;
+    font-size: 1.3rem;
+    border: none;
+}
+.btn input:hover{
+    background: -webkit-linear-gradient(170deg,rgb(0, 118, 165), rgb(11, 9, 102));
+}
